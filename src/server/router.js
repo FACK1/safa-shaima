@@ -10,13 +10,19 @@ const router = (request, response) => {
       handlers.searchMoviesHandler(request, response);
     } else if (request.url.includes('/getMovies?id=')) {
       handlers.getMoviesHandler(request, response);
-    }else if (request.url.includes('/PostMovies?id=')) {
-      handlers.postMoviesHandler(request, response);
     } else if (request.url.split('.')[1]) {
       handlers.publicHandler(request, response);
     } else {
       handlers.errorHandler(request, response);
     }
+  }
+  else if (request.method === 'POST') {
+  if (request.url.includes('/PostMovies?id=')) {
+      handlers.postMoviesHandler(request, response);
+    }else {
+      handlers.errorHandler(request, response);
+    }
+
   }
 };
 

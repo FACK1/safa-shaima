@@ -1,9 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const querystring = require('querystring');
-//const searchMovie= require('../search/searchMovie.js');
-//const getMovies = require ('./queries/getMovies.js')
-//const postMovies = require ('./queries/postMovies.js')
 
 const errorHandler = (request, response) => {
   response.writeHead(404, { 'content-type': 'text/html' });
@@ -45,52 +42,11 @@ const publicHandler = (request, response) => {
     });
   }
 };
-//
-// const searchMoviesHandler = (request, response) => {
-//   if (!request.url.includes('/search?value=')) {
-//     errorHandler(request, response);
-//   } else {
-//     const parsedQuery = querystring.parse(request.url.split('?')[1]);
-//     searchMovie.search(request, response, parsedQuery.value);
-//   }
-// };
-
-// const getMoviesHandler = response => {
-// getMovies((error,data)=>{
-// if(error){
-// response.writeHead(500,{ 'content-type': 'plain/text' });
-// response.end("server error");
-// }
-// else{
-// const output = JSON.stringify(data);
-// response.writeHead(200, { 'Content-Type': 'application/json' });
-// response.end(output);
-// };
-// });
-// };
-//
-// const postMoviesHandler=response=>
-// {
-// postMoives((error,data)=>{
-// if(error){
-// response.writeHead(500,{ 'content-type': 'plain/text' });
-// response.end("server error");
-// }
-// else{
-// const output = JSON.stringify(data);
-// response.writeHead(200, { 'Content-Type': 'application/json' });
-// response.end(output);
-// };
-// });
-//
-// }
 
 
 module.exports = {
   homeHandler,
   publicHandler,
-  // searchMoviesHandler,
-  errorHandler,
-  // postMoviesHandler,
-  // getMoviesHandler
+  errorHandler
+
 };
