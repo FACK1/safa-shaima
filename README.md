@@ -1,7 +1,7 @@
 # 123Movies
 
 ### About:
-A website for searching about movies , allows users to search any movie they want and display information  and image  for its  .
+A website for searching about movies , allows users to search any movie they want and display information  and image  for its.
 ### User journey: 
 In our app you can  search for your favourite movie by putting the name of it in the place of search and you can also add a movie through add button . 
 ### Site Link in Heroku :
@@ -30,6 +30,7 @@ In our app you can  search for your favourite movie by putting the name of it in
   we create src folder and put folders in its like :
 
   - database folder:
+  
     db_build.js
   
     db_build.sql 
@@ -37,6 +38,7 @@ In our app you can  search for your favourite movie by putting the name of it in
     db_connection.js
     
   - queries folder:
+  
     getMovis.js
 
     postMovies.js
