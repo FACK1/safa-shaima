@@ -39,7 +39,7 @@ In our app you can  search for your favourite movie by putting the name of it in
     
   - queries folder:
   
-    getMovis.js
+    getMovies.js
 
     postMovies.js
 
