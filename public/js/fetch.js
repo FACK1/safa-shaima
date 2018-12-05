@@ -4,7 +4,7 @@ fetch(searchUrl)
 .then(function(response){
 return response.json();
 }).then(function(data){
-cb(null, data.movies);
+cb(null, data);
 }).catch(function(error){
 cb(true);
 });
