@@ -86,10 +86,15 @@ our website is a  page contains a title for website with background , then will 
 
 ### Movies Names:
 The user can search for serveral movies like:
+
 -StudentOfTheYear
+
 -Omar
+
 -Shaandaar
+
 -Zana et Settat
+
 -The Pursuit of Happyness
 
 
