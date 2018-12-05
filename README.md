@@ -74,7 +74,7 @@ our website is a  page contains a title for website with background , then will 
 
 4- Then put in terminal : **npm run nodemon** to run the server. 
 
-5- Open your browser and put in terminal: **localhost:4000**.
+5- Open your browser and put in terminal: **localhost:4001**.
 
 #### Travis CI:
 
