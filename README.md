@@ -12,16 +12,16 @@ In our app you can  search for your favourite movie by putting the name of it in
 - Front-End :
 
   we create  public folder and put inside its folders like :
-   - css folder:
+   - css :
    
-      style.css
+       style.css
 
-      resets.css
-  - js folder:
+       resets.css
+  - js :
   
-     dom.js
+       dom.js
 
-    fetch.js
+      fetch.js
    
   - index.html 
   
@@ -29,33 +29,33 @@ In our app you can  search for your favourite movie by putting the name of it in
 
   we create src folder and put folders in its like :
 
-  - database folder:
+  - database :
   
-    db_build.js
-  
-    db_build.sql 
+      db_build.js
 
-    db_connection.js
+      db_build.sql 
+
+      db_connection.js
     
-  - queries folder:
+  - queries :
   
-    getMovies.js
+      getMovies.js
 
-    postMovies.js
+      postMovies.js
 
-  - handlerfunction folder:
+  - handlerfunction :
 
-    search.js
-  - Server folder:
+      search.js
+  - Server :
   
-    server.js
+      server.js
 
-    router.js
+      router.js
    
-    handlers.js
-  - Test folder:
+      handlers.js
+  - Test :
   
-    test.js
+      test.js
  
 
 
