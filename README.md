@@ -40,6 +40,8 @@ In our app you can  search for your favourite movie by putting the name of it in
   - queries :
   
       getMovies.js
+      
+      postMovies.js
 
      
 
