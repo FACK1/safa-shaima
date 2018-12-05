@@ -59,6 +59,7 @@ In our app you can  search for your favourite movie by putting the name of it in
       test.js
  
 -  Database schema:
+
 ![untitled diagram](https://user-images.githubusercontent.com/37650536/49534231-aad21180-f886-11e8-90b9-2555491a31d1.png)
 
 
