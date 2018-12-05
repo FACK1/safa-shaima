@@ -43,7 +43,7 @@ In our app you can  search for your favourite movie by putting the name of it in
 
     postMovies.js
 
-  - searchMovie folder:
+  - handlerfunction folder:
 
     search.js
   - Server folder:
