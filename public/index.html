@@ -15,19 +15,21 @@
 	<img src="img/550ec0b9-6120-48ed-a792-503fa3f3f74e.jpeg" class="img-header">
 	</header>
   <div class="container">
-		<form method="GET" class="form">
-	    <input type="text" name="movie" id="movie" placeholder="Enter name of Moive" required>
-			<button type="submit" id="buttonSearch"></button>
+		<form class="form" id="form">
+	    <input type="text" id="movie" placeholder="Enter name of Moive"/>
+			<input type="submit" placeholder="Moive" id="buttonSearch"/>
       <button type="submit" id="buttonadd"></button>
-		</form>
+
 	</div>
   	<!-- END <header-->
 	<!--Start section-->
-	<section id="search-result">
+	<section >
+    <div id="search-result">
+      </div>
 	</section>
 	<!--End section -->
   <script src="js/fetch.js"></script>
-		<script src="js/dom.js"></script>
+  <script src="js/dom.js"></script>
 
 	</body>
 </html>
