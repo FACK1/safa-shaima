@@ -1,4 +1,4 @@
-require('env2')('.../.env')
+
 
 const http = require('http')
 const router = require('./router.js')
