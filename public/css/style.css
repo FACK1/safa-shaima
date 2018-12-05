@@ -1,0 +1,40 @@
+.img-header{
+height: 40%;
+width: 100%;
+
+}
+
+.form {
+  display: flex;
+}
+#buttonSearch{
+width: 20%;
+height:35px;
+background-image: url("../img/icons8-google-web-search-240.png");
+background-repeat: no-repeat;
+background-size: 55%;
+background-color: #60B7D9;
+background-position:center;
+
+}
+#buttonadd{
+  width: 20%;
+  height:35px;
+  background-image: url("../img/icons8-plus-128.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+background-position:center;
+background-color: #60B7D9;
+
+}
+
+
+#movie{
+height:30px;
+width: 50%;
+}
+
+
+.container-flex{
+background-color: #E3EBF3;
+}
