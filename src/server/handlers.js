@@ -29,7 +29,10 @@ const publicHandler = (request, response) => {
   const contentTypeMapping = {
     html: 'text/html',
     css: 'text/css',
-    js: 'application/js'
+    js: 'application/js',
+		png: 'image/png',
+		jpeg: 'image/jpeg'
+
   }
   if (!contentTypeMapping[extension]) {
     response.writeHead(404, { 'Content-Type': 'text/html' })
