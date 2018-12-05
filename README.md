@@ -95,7 +95,6 @@ The user can search for serveral movies like:
 
 -Zana et Settat
 
--The Pursuit of Happyness
 
 
 #### Travis CI:
