@@ -1,7 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 const querystring=require('querystring');
-const searchMoive=require('../handlerfunction/searchMoive.js')
+const searchMoive=require('../handlerfunction/searchMoive.js');
+
+
 
 const errorHandler = (request, response) => {
   response.writeHead(404, { 'content-type': 'text/html' })
@@ -58,10 +60,10 @@ if (!request.url.includes('/search?value=')) {
 
 
 
+
 module.exports = {
   homeHandler,
   publicHandler,
-  errorHandler,
   searchMoviesHandler,
-
-}
+  errorHandler,
+};

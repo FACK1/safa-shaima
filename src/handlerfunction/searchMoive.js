@@ -8,8 +8,8 @@ getMoives(value,(err,result)=>{
   if(err){
     console.log(err);
   }else {
-    res.writeHead(200,{ 'content-type': 'application/json '});
     const output=JSON.stringify(result);
+    res.writeHead(200,{ 'content-type': 'application/json '});
     res.end(output);
   }
   })
