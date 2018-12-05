@@ -41,11 +41,12 @@ In our app you can  search for your favourite movie by putting the name of it in
   
       getMovies.js
 
-      postMovies.js
+     
 
   - handlerfunction :
 
       search.js
+      
   - Server :
   
       server.js
