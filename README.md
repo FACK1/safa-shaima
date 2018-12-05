@@ -57,6 +57,9 @@ In our app you can  search for your favourite movie by putting the name of it in
   
       test.js
  
+-  Database schema:
+[](Untitled Diagram.png)
+
 
 
 - HTML structure :
