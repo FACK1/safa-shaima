@@ -83,7 +83,6 @@ our website is a  page contains a title for website with background , then will 
 
 5- Open your browser and put in terminal: **localhost:4001**.
 
-#### Test coverage:
 
 #### Travis CI:
 
