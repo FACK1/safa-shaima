@@ -5,12 +5,12 @@ require('env2')('.env')
 
 const { DATABASE_URL, DB_URL } = process.env
 
-if(!DATABASE_URL || DB_URL){
+if(! DB_URL){
   throw Error('No Data Base URL');
 }
 
 const option = {
-  connectionString: DATABASE_URL || DB_URL
+  connectionString: DB_URL
 }
 
 const hostname = url.parse(process.env.DATABASE_URL).hostname;
