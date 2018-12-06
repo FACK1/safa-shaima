@@ -1,10 +1,7 @@
 const test = require("tape");
 const supertest = require('supertest');
-const querystring  = require('querystring')
 const router = require('../server/router');
-const runDbBuild = require("../database/db_connection");
-const getMovies = require("../queries/getMovies");
-const postMovies = require("../queries/postMovies");
+
 
 
    const movies=[
@@ -37,43 +34,3 @@ const postMovies = require("../queries/postMovies");
          t.end();
        });
    });
-
-   // test('Testing publicHandler ', (t) => {
-   //   supertest(router)
-   //     .get('/index.html')
-   //     .expect(200)
-   //     .expect('Content-Type', /html/)
-   //     .end((error, result) => {
-   //       t.error(error);
-   //       const actual = result.text.includes('<title> 123Movies</title>');
-   //       const expected = true;
-   //       t.deep(actual, expected, 'response should contains title tag');
-   //       t.end();
-   //     });
-   // });
-
-
-   // test('Testing searchMoviesHandler ', (t) => {
-   //   supertest(router)
-   //     .get('/search?value=StudentOfTheYear')
-   //     .expect(200)
-   //     .expect('Content-Type', /json/)
-   //     .end((error, result) => {
-   //       t.error(error);
-   //       t.end();
-   //     });
-   // });
-
-
-//   test('Testing postMoviesHandler', (t) => {
-//   const query = `/search?${querystring.stringify({category:'movies', text:'StudentOfTheYear'})}`
-//   supertest(router)
-//     .post(query)
-//     .expect(200)
-//     .expect('Content-Type','application/json')
-//     .end((err, res) => {
-//       t.error(err)
-//       t.deepEqual(res.text,movies, 'The result movie  info ');
-//       t.end();
-//     });
-// });
