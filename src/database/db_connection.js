@@ -1,14 +1,19 @@
-const {Pool} =require("pg");
-require("env2")('.env');
+const { Pool } = require('pg')
+const url = require('url')
 
-const {DB_URL} = process.env;
-console.log(DB_URL);
-if(! DB_URL){
-  throw Error ("No database URL")
+require('env2')('.env')
+
+const { DATABASE_URL } = process.env
+if (!DATABASE_URL) {
+  throw Error('No database URL')
 }
 
 const option = {
-  connectionString: DB_URL
-};
+  connectionString: DATABASE_URL
+}
 
-module.exports = new Pool(option);
+const hostname = url.parse(process.env.DATABASE_URL).hostname;
+
+
+option.ssl = (hostname !== 'localhost');
+module.exports = new Pool(option)

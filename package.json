@@ -22,6 +22,7 @@
   "homepage": "https://github.com/FACK1/safa-shaima#readme",
   "dependencies": {
     "env2": "^2.2.2",
+    "heroku": "^7.19.3",
     "istanbul": "^0.4.5",
     "pg": "^7.7.1",
     "request": "^2.88.0",
