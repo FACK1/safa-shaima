@@ -53,16 +53,16 @@ const postMovies = require("../queries/postMovies");
    // });
 
 
-   test('Testing searchMoviesHandler ', (t) => {
-     supertest(router)
-       .get('/search?value=StudentOfTheYear')
-       .expect(200)
-       .expect('Content-Type', /json/)
-       .end((error, result) => {
-         t.error(error);
-         t.end();
-       });
-   });
+   // test('Testing searchMoviesHandler ', (t) => {
+   //   supertest(router)
+   //     .get('/search?value=StudentOfTheYear')
+   //     .expect(200)
+   //     .expect('Content-Type', /json/)
+   //     .end((error, result) => {
+   //       t.error(error);
+   //       t.end();
+   //     });
+   // });
 
 
 //   test('Testing postMoviesHandler', (t) => {
