@@ -15,5 +15,5 @@ const option = {
 
 const hostname = url.parse(process.env.BD_URL).hostname;
 
-option.ssl = (hostname !=='localhost');
+option.ssl = (hostname !== 'localhost');
 module.exports = new Pool(option)
