@@ -3,7 +3,7 @@ const url = require('url')
 
 require('env2')('.env')
 
-const { DATABASE_URL, DB_URL } = process.env
+const { DB_URL } = process.env
 
 if(! DB_URL){
   throw Error('No Data Base URL');
