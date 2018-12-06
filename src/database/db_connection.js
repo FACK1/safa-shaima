@@ -13,7 +13,7 @@ const option = {
   connectionString: DB_URL
 }
 
-const hostname = url.parse(process.env.DATABASE_URL).hostname;
+const hostname = url.parse(process.env.BD_URL).hostname;
 
 option.ssl = (hostname !== 'localhost');
 module.exports = new Pool(option)
