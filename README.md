@@ -4,6 +4,8 @@
 A website for searching about movies , allows users to search any movie they want and display information  and image  for its.
 ### User journey: 
 In our app you can  search for your favourite movie by putting the name of it in the place of search and you can also add a movie through add button . 
+- As a user I want to search for a movie name, the user will see details about movie.
+- As a user I want to add a moive .
 ### Site Link in Heroku :
 [123Movies](https://moviesworkshop.herokuapp.com/) 
 ### Site design :
